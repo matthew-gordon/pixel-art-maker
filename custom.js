@@ -23,6 +23,7 @@ function paintPixel(e) {
 function colorPick(e) {
   var clickedColor = e.target.style.backgroundColor;
   paint = clickedColor;
+  document.querySelector('#currentColor').style.backgroundColor = clickedColor;
 }
 
 // creates canvas
